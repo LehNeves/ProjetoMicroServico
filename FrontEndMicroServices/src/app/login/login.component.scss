@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  .mat-card {
+    width: fit-content;
+
+    .mat-card-title {
+      padding-bottom: 1em;
+    }
+
+    .mat-card-content {
+      display: flex;
+      flex-wrap: wrap;
+
+      mat-form-field {
+        width: 100%;
+        padding-bottom: 1em;
+      }
+    }
+  }
+}
